@@ -1,10 +1,122 @@
-body {
-    font-family: 'inter';
-    background: #E5E5E5;
+* {
+    font-family: "Inter";
+    color: #fff;
 }
+
+.main-bg {
+    background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.nav-link {
+    margin-left: 40px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.nav-links a:hover {
+    color: aqua;
+}
+
+.main-heading {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.main-text {
+    font-size: 50px;
+}
+
+.contact-btn {
+    background: #71D5FF3D;
+    color: #fff;
+    border-radius: 26px;
+    border: none;
+    width: 160px;
+}
+
+.sm-icon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.service {
+    color: #FF688C;
+    font-size: 24px;
+}
+
+.create {
+    color: #000;
+}
+
 .small-text {
     color: #7F7E7E;
 }
 .peach-text {
     color: #FF688C;
+}
+
+@media screen and  (max-width: 320px) {
+    .main-bg {
+        background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .main-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .creating-digital {
+        text-align: center;
+    }
+}
+
+@media screen and  (max-width: 770px) {
+
+    .headings {
+        background-image: url(./images/overall-triangle.svg);
+        background-size: cover;
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .contact-btn {
+        align-self: center;
+        align-content: center;
+    }
+
+    .sm-icon {
+        align-self: center;
+        align-content: center;
+    }
+
+    .bg-image {
+        display: none;
+    }
+    
+}
+
+@media screen and  (max-width: 870px) {
+    .section-rev {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section-p {
+        margin-top: 30px;
+    }
 }

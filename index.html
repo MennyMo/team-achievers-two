@@ -4,75 +4,205 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
      <title>Modern Software Development</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="style.css" />
+
  </head>
  <body>
-   <section class="shape">
-    <div class="circle d-flex justify-content-between m-5">
-        <div class="text p-5 col-lg-6 col-sm-12">
-            <div class="fs-5 fw-bolder">Create digital experiences on the edge --faster</div>
-            <div class="small-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam explicabo, repellendus facere 
+
+    <main class="main-bg">
+
+        <nav class="nav-bar navbar navbar-expand-lg">
+            <div class="container">
+
+              <a class="navbar-brand" href="#">
+                <img class="" src="./icons/Logo.svg" alt="brand logo" />
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-icon" src="./icons/output-onlinepngtools.png" alt="menu" />
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="nav-links ms-auto">
+                        <ul class="nav-links navbar-nav" >
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Our Clients</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            
+                          </ul> 
+                    </div>
+                 
+              </div>
+
+        </nav>
+
+        <div class="main-heading container mb-5">
+
+            <div class="headings row d-flex align-items-center">
+
+                <div class="col-6 main-info">
+                    <h1 class="fw-bold main-text">Modern Software<br/> Development.</h1>
+                    <p class="fs-3">Meet Faster, More Secure Web.</p>
+
+                    <button class="contact-btn p-3 mt-4">Contact Us</button>
+
+                    <div class="d-flex justify-content-start sm-icon">
+                        <div class="me-4">
+                            <img src="./icons/instagram.svg" alt="instagram" />
+                        </div>
+                        <div class="me-4">
+                            <img src="./icons/facebook.svg" alt="facebook" />
+                        </div>
+                        <div class="me-4">
+                            <img src="./icons/linkedin.svg" alt="linkedin" />
+                        </div>
+                        <div>
+                            <img src="./icons/twitter.svg" alt="twitter" />
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div class="col-6">
+                    <img class="bg-image" src="./images/overall-triangle.svg" alt="bg" width="100%" />
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <section>
+
+        <div class="container">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 text-center">
+                    <p class="service fw-bolder mt-4">SERVICE</p>
+
+                    <p class="create fw-bolder text-dark fs-1">Create digital experiences<br/> on the edge—faster</p>
+
+                    <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Dignissim nulla nibh quam<br/> pretium eu. </p>
+                </div>
             </div>
         </div>
-        <div class="img">
-            <img src="./images/circle-one.svg" alt="" class="col-lg-6 col-sm-12 img-fluid">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img src="./images/triangle-two.svg" alt="digital-xp" width="100%" />
+                </div>
+
+                <div class="col-lg-6 col-12 mt-auto mb-auto creating-digital text-center">
+                    <p class="create fw-bolder fs-4">Create digital experiences on the edge—faster</p>
+
+                    <p class="text-black-50 p-3 section-p">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Dignissim nulla nibh quam<br/> pretium eu. </p>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="square d-flex justify-content-between m-5">
-       <div class="img" >
-           <img src="./images/square-one.svg" alt="">
-       </div>
-       <div class="text p-5 col-lg-6 col-sm-12">
-           <div class="fs-5 fw-bolder ">Create digital experiences on the edge --faster</div>
-           <div class="small-text">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsam explicabo, repellendus facere 
-           </div>
-       </div>
-   </div>
-   </section>
-   <!-- Portfolio section -->
-<section>
-<div class="portfolio text-center py-5">
-    <div class="peach-text fs-6 fw-bold">PORTFOLIO</div>
-    <div class="fs-3 fw-bolder p-3">
-        Create digital experiences <br> on the edge --faster
-    </div>
-    <div class="small-text p-4">
-        Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Expedita ipsam facere <br> explicabo, repellendus 
-    </div>
-</div>
+        <div class="container">
+            <div class="row mt-4 section-rev">
+                <div class="col-lg-6 col-12  mt-auto mb-auto creating-digital text-center">
+                    <p class="create fw-bolder fs-4">Create digital experiences on the edge --faster</p>
 
-<div class="  ">
-    <div class="d-flex justify-content-center col-md-12 col-sm-6 img-fluid px-0">
-    <div><img src="images/pic-one.svg" alt=""></div>
-    <div><img src="images/pic-two.svg" alt=""></div>
-    <div><img src="images/pic-three.svg" alt=""></div>
-    </div>
-    <div class="d-flex justify-content-center col-md-12 col-sm-6 img-fluid px-0">
-    <div><img src="images/pic-four.svg" alt=""></div>
-    <div><img src="images/pic-five.svg" alt=""></div>
-    <div><img src="images/pic-six.svg" alt=""></div>
-    </div>
-</div>
+                    <p class="text-black-50 p-3">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Dignissim nulla nibh quam<br/> pretium eu. </p>
+                </div>
+
+                <div class="col-lg-6 col-12">
+
+                    <img src="./images/circle-one.svg" alt="digital-xp" width="100%" />
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5 ">
+                <div class="col-lg-6 col-12">
+                    <img src="./images/square-one.svg" alt="digital-xp" width="100%" />
+                </div>
+
+                <div class="col-lg-6 col-12 mt-auto mb-auto creating-digital text-center">
+                    <p class="create fw-bolder fs-4 section-p">Create digital experiences on the edge—faster</p>
+
+                    <p class="text-black-50 p-3">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Dignissim nulla nibh quam<br/> pretium eu. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container portfolio-section">
+            <div class="row mb-5 mt-5">
+                <div class="col-12 text-center mt-5">
+                    <p class="service fw-bolder mt-4">PORTFOLIO</p>
+
+                    <p class="create fw-bolder text-dark fs-1">Create digital experiences<br/> on the edge—faster</p>
+
+                    <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit. Dignissim nulla nibh quam<br/> pretium eu. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" >
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-one.svg" alt="" width="100%">
+                </div>
+
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-two.svg" alt="" width="100%">
+                </div>
+
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-three.svg" alt="" width="100%">
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-one.svg" alt="" width="100%">
+                </div>
+
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-two.svg" alt="" width="100%">
+                </div>
+
+                <div class="col-sm-4 col-12">
+                    <img src="images/pic-three.svg" alt="" width="100%">
+                </div>
+            </div>
+        </div>
+            
+        <!-- Button -->
+        <div class="text-align p-5 text-center">
+            <button class="btn btn-outline-secondary rounded-pill">
+                <div class="peach-text px-4">More</div>
+            </button>
+        </div>
 
 
-<!-- Button -->
-<div class="text-align p-5">
-    <button class="btn btn-outline-secondary rounded-pill">
-        <div class="peach-text px-4">More</div>
-    </button>
-</div>
-</section>
+    </section>
+    
 
-     
- </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
  </html>
