@@ -120,3 +120,73 @@
         margin-top: 30px;
     }
 }
+/*Timileyin*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+body    {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.our-team   {
+    color:#FF688C;
+    font-size: 18px;
+    font-weight: 900;
+}
+.create {
+    font-size: 38px;
+    font-weight: 900;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 54.38px;
+}
+.lorem  {
+    font-size: 18px;
+    width: 30%;
+    margin: 0 auto;
+    line-height: 25.76px;
+}
+.work {
+    margin-top: 10rem;
+}
+.btn-size   {
+    width: 147.02px;
+    height: 45.83px ;
+    background: linear-gradient(to right, #127CFF, #2FC1FE);
+}
+.paradox    {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.paradox  h5{
+    margin: 0;
+}
+.footer {
+    margin-top:7rem;
+    padding: 3rem 0;
+}
+/* footer  {
+    padding-left: 10rem;
+} */
+.JD h5{
+    margin: 0;
+    font-size: 18px;
+}
+@media screen and (max-width:768px) {
+    .create {
+        width: 81%;
+    }
+    .lorem  {
+        width: 58%;
+    }
+    .JD {
+        margin-left: 1.5rem !important;
+    }
+    .lorem  {
+        width: 58%!important;
+    }
+}
+@media screen and (max-width: 576px)    {
+    .lorem  {
+        width: 70%!important;
+    }
+}
