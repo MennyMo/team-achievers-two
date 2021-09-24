@@ -48,7 +48,7 @@
     font-size: 24px;
 }
 
-.create {
+.create-digital {
     color: #000;
 }
 
@@ -134,7 +134,7 @@ body    {
 .create {
     font-size: 38px;
     font-weight: 900;
-    
+    width: 45%;
     margin: 0 auto;
     line-height: 54.38px;
 }
